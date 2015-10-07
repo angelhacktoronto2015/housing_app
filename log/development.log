@@ -1,0 +1,25 @@
+  [1m[36m (1.0ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [1m[35m (0.9ms)[0m  CREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+
+
+Started GET "/" for 127.0.0.1 at 2015-10-07 17:43:48 -0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (1.3ms)
+  Rendered layouts/_navbar.html.erb (0.3ms)
+  Rendered home/_user_list.html.erb (0.2ms)
+Completed 200 OK in 1991ms (Views: 1990.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/websocket" for 127.0.0.1 at 2015-10-07 17:43:51 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2015-10-07 17:44:01 -0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_navbar.html.erb (0.1ms)
+  Rendered home/_user_list.html.erb (0.0ms)
+Completed 200 OK in 9ms (Views: 8.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/websocket" for 127.0.0.1 at 2015-10-07 17:44:01 -0400

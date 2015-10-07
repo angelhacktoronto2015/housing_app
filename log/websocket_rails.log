@@ -1,0 +1,30 @@
+# Logfile created on 2015-10-07 17:43:51 -0400 by logger.rb/41954
+I [2015-10-07 17:43:51.119] [[32mConnectionManager[0m] Connection opened: #<Connection::275f3e4025729a839ddf>
+
+I [2015-10-07 17:43:51.119] [[32mDispatcher[0m] Started Event: client_connected
+I [2015-10-07 17:43:51.119] [[32mDispatcher[0m] [36mName:[0m client_connected
+I [2015-10-07 17:43:51.119] [[32mDispatcher[0m] [36mData:[0m {"connection_id"=>nil}
+I [2015-10-07 17:43:51.119] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::275f3e4025729a839ddf>
+
+I [2015-10-07 17:43:51.121] [[32mDispatcher[0m] Event client_connected Finished in 0.001386 seconds
+
+I [2015-10-07 17:43:57.216] [[32mDispatcher[0m] Started Event: send_message
+I [2015-10-07 17:43:57.216] [[32mDispatcher[0m] [36mName:[0m send_message
+I [2015-10-07 17:43:57.216] [[32mDispatcher[0m] [36mData:[0m {"text"=>"Shake Paw"}
+I [2015-10-07 17:43:57.216] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::275f3e4025729a839ddf>
+
+I [2015-10-07 17:43:57.217] [[32mDispatcher[0m] Event send_message Finished in 0.00088 seconds
+
+I [2015-10-07 17:44:01.775] [[32mConnectionManager[0m] Connection opened: #<Connection::63f801d61d6a506dca81>
+
+I [2015-10-07 17:44:01.775] [[32mDispatcher[0m] Started Event: client_connected
+I [2015-10-07 17:44:01.776] [[32mDispatcher[0m] [36mName:[0m client_connected
+I [2015-10-07 17:44:01.776] [[32mDispatcher[0m] [36mData:[0m {"connection_id"=>nil}
+I [2015-10-07 17:44:01.776] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::63f801d61d6a506dca81>
+
+I [2015-10-07 17:44:01.777] [[32mDispatcher[0m] Event client_connected Finished in 0.000861 seconds
+
+I [2015-10-07 17:48:53.742] [[32mConnectionManager[0m] Connection closed: #<Connection::275f3e4025729a839ddf>
+
+I [2015-10-07 17:48:53.743] [[32mConnectionManager[0m] Connection closed: #<Connection::63f801d61d6a506dca81>
+
